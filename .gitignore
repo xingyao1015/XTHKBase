@@ -13,3 +13,4 @@
 .externalNativeBuild
 .cxx
 lib_hotfix/.idea/
+.idea/
