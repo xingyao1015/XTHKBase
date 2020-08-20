@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="XtButton">
+        <attr name="xt_layout_width" />
+        <attr name="xt_layout_height" />
+        <attr name="xt_padding" />
+        <attr name="xt_paddingLeft" />
+        <attr name="xt_paddingTop" />
+        <attr name="xt_paddingRight" />
+        <attr name="xt_paddingBottom" />
+        <attr name="xt_layout_margin" />
+        <attr name="xt_layout_marginLeft" />
+        <attr name="xt_layout_marginTop" />
+        <attr name="xt_layout_marginRight" />
+        <attr name="xt_layout_marginBottom" />
+        <attr name="xt_textSize" />
+        <attr name="xt_drawableWidth" />
+        <attr name="xt_drawableHeight" />
+        <attr name="xt_drawablePadding" />
+        <attr name="xt_layout_max_width" />
+        <attr name="xt_layout_max_height" />
+    </declare-styleable>
+    <declare-styleable name="XtCheckBox">
+        <attr name="xt_layout_width" />
+        <attr name="xt_layout_height" />
+        <attr name="xt_padding" />
+        <attr name="xt_paddingLeft" />
+        <attr name="xt_paddingTop" />
+        <attr name="xt_paddingRight" />
+        <attr name="xt_paddingBottom" />
+        <attr name="xt_layout_margin" />
+        <attr name="xt_layout_marginLeft" />
+        <attr name="xt_layout_marginTop" />
+        <attr name="xt_layout_marginRight" />
+        <attr name="xt_layout_marginBottom" />
+        <attr name="xt_textSize" />
+        <attr name="xt_drawableWidth" />
+        <attr name="xt_drawableHeight" />
+        <attr name="xt_drawablePadding" />
+        <attr name="xt_layout_max_width" />
+        <attr name="xt_layout_max_height" />
+    </declare-styleable>
+    <declare-styleable name="XtConstraintLayout">
+        <attr name="xt_layout_width" />
+        <attr name="xt_layout_height" />
+        <attr name="xt_padding" />
+        <attr name="xt_paddingLeft" />
+        <attr name="xt_paddingTop" />
+        <attr name="xt_paddingRight" />
+        <attr name="xt_paddingBottom" />
+        <attr name="xt_layout_margin" />
+        <attr name="xt_layout_marginLeft" />
+        <attr name="xt_layout_marginTop" />
+        <attr name="xt_layout_marginRight" />
+
+        <attr name="xt_layout_marginBottom" />
+    </declare-styleable>
+    <declare-styleable name="XtEditText">
+        <attr name="xt_layout_width" />
+        <attr name="xt_layout_height" />
+        <attr name="xt_padding" />
+        <attr name="xt_paddingLeft" />
+        <attr name="xt_paddingTop" />
+        <attr name="xt_paddingRight" />
+        <attr name="xt_paddingBottom" />
+        <attr name="xt_layout_margin" />
+        <attr name="xt_layout_marginLeft" />
+        <attr name="xt_layout_marginTop" />
+        <attr name="xt_layout_marginRight" />
+        <attr name="xt_layout_marginBottom" />
+        <attr name="xt_textSize" />
+        <attr name="xt_drawableWidth" />
+        <attr name="xt_drawableHeight" />
+        <attr name="xt_drawablePadding" />
+        <attr name="xt_layout_max_width" />
+        <attr name="xt_layout_max_height" />
+    </declare-styleable>
+    <declare-styleable name="XtFrameLayout">
+        <attr name="xt_layout_width" />
+        <attr name="xt_layout_height" />
+        <attr name="xt_padding" />
+        <attr name="xt_paddingLeft" />
+        <attr name="xt_paddingTop" />
+        <attr name="xt_paddingRight" />
+        <attr name="xt_paddingBottom" />
+        <attr name="xt_layout_margin" />
+        <attr name="xt_layout_marginLeft" />
+        <attr name="xt_layout_marginTop" />
+        <attr name="xt_layout_marginRight" />
+        <attr name="xt_layout_marginBottom" />
+    </declare-styleable>
+    <declare-styleable name="XtGridView">
+        <attr name="xt_layout_width" />
+        <attr name="xt_layout_height" />
+        <attr name="xt_padding" />
+        <attr name="xt_paddingLeft" />
+        <attr name="xt_paddingTop" />
+        <attr name="xt_paddingRight" />
+        <attr name="xt_paddingBottom" />
+        <attr name="xt_layout_margin" />
+        <attr name="xt_layout_marginLeft" />
+        <attr name="xt_layout_marginTop" />
+        <attr name="xt_layout_marginRight" />
+        <attr name="xt_layout_marginBottom" />
+    </declare-styleable>
+    <declare-styleable name="XtHorizontalScrollView">
+        <attr name="xt_layout_width" />
+        <attr name="xt_layout_height" />
+        <attr name="xt_padding" />
+        <attr name="xt_paddingLeft" />
+
+        <attr name="xt_paddingTop" />
+        <attr name="xt_paddingRight" />
+        <attr name="xt_paddingBottom" />
+        <attr name="xt_layout_margin" />
+        <attr name="xt_layout_marginLeft" />
+        <attr name="xt_layout_marginTop" />
+        <attr name="xt_layout_marginRight" />
+        <attr name="xt_layout_marginBottom" />
+    </declare-styleable>
+    <declare-styleable name="XtImageButton">
+        <attr name="xt_layout_width" />
+        <attr name="xt_layout_height" />
+        <attr name="xt_padding" />
+        <attr name="xt_paddingLeft" />
+        <attr name="xt_paddingTop" />
+        <attr name="xt_paddingRight" />
+        <attr name="xt_paddingBottom" />
+        <attr name="xt_layout_margin" />
+        <attr name="xt_layout_marginLeft" />
+        <attr name="xt_layout_marginTop" />
+        <attr name="xt_layout_marginRight" />
+        <attr name="xt_layout_marginBottom" />
+    </declare-styleable>
+    <declare-styleable name="XtImageView">
+        <attr name="xt_layout_width" />
+        <attr name="xt_layout_height" />
+        <attr name="xt_padding" />
+        <attr name="xt_paddingLeft" />
+        <attr name="xt_paddingTop" />
+        <attr name="xt_paddingRight" />
+        <attr name="xt_paddingBottom" />
+        <attr name="xt_layout_margin" />
+        <attr name="xt_layout_marginLeft" />
+        <attr name="xt_layout_marginTop" />
+        <attr name="xt_layout_marginRight" />
+        <attr name="xt_layout_marginBottom" />
+    </declare-styleable>
+    <declare-styleable name="XtLinearLayout">
+        <attr name="xt_layout_width" />
+        <attr name="xt_layout_height" />
+        <attr name="xt_padding" />
+        <attr name="xt_paddingLeft" />
+        <attr name="xt_paddingTop" />
+        <attr name="xt_paddingRight" />
+        <attr name="xt_paddingBottom" />
+        <attr name="xt_layout_margin" />
+        <attr name="xt_layout_marginLeft" />
+        <attr name="xt_layout_marginTop" />
+        <attr name="xt_layout_marginRight" />
+        <attr name="xt_layout_marginBottom" />
+    </declare-styleable>
+    <declare-styleable name="XtProgressBar">
+        <attr name="xt_layout_width" />
+        <attr name="xt_layout_height" />
+        <attr name="xt_padding" />
+
+        <attr name="xt_paddingLeft" />
+        <attr name="xt_paddingTop" />
+        <attr name="xt_paddingRight" />
+        <attr name="xt_paddingBottom" />
+        <attr name="xt_layout_margin" />
+        <attr name="xt_layout_marginLeft" />
+        <attr name="xt_layout_marginTop" />
+        <attr name="xt_layout_marginRight" />
+        <attr name="xt_layout_marginBottom" />
+    </declare-styleable>
+    <declare-styleable name="XtRadioButton">
+        <attr name="xt_layout_width" />
+        <attr name="xt_layout_height" />
+        <attr name="xt_padding" />
+        <attr name="xt_paddingLeft" />
+        <attr name="xt_paddingTop" />
+        <attr name="xt_paddingRight" />
+        <attr name="xt_paddingBottom" />
+        <attr name="xt_layout_margin" />
+        <attr name="xt_layout_marginLeft" />
+        <attr name="xt_layout_marginTop" />
+        <attr name="xt_layout_marginRight" />
+        <attr name="xt_layout_marginBottom" />
+        <attr name="xt_textSize" />
+        <attr name="xt_drawableWidth" />
+        <attr name="xt_drawableHeight" />
+        <attr name="xt_drawablePadding" />
+        <attr name="xt_layout_max_width" />
+        <attr name="xt_layout_max_height" />
+    </declare-styleable>
+    <declare-styleable name="XtRadioGroup">
+        <attr name="xt_layout_width" />
+        <attr name="xt_layout_height" />
+        <attr name="xt_padding" />
+        <attr name="xt_paddingLeft" />
+        <attr name="xt_paddingTop" />
+        <attr name="xt_paddingRight" />
+        <attr name="xt_paddingBottom" />
+        <attr name="xt_layout_margin" />
+        <attr name="xt_layout_marginLeft" />
+        <attr name="xt_layout_marginTop" />
+        <attr name="xt_layout_marginRight" />
+        <attr name="xt_layout_marginBottom" />
+    </declare-styleable>
+    <declare-styleable name="XtRecyclerView">
+        <attr name="xt_layout_width" />
+        <attr name="xt_layout_height" />
+        <attr name="xt_padding" />
+        <attr name="xt_paddingLeft" />
+        <attr name="xt_paddingTop" />
+        <attr name="xt_paddingRight" />
+        <attr name="xt_paddingBottom" />
+        <attr name="xt_layout_margin" />
+        <attr name="xt_layout_marginLeft" />
+        <attr name="xt_layout_marginTop" />
+
+        <attr name="xt_layout_marginRight" />
+        <attr name="xt_layout_marginBottom" />
+    </declare-styleable>
+    <declare-styleable name="XtRelativeLayout">
+        <attr name="xt_layout_width" />
+        <attr name="xt_layout_height" />
+        <attr name="xt_padding" />
+        <attr name="xt_paddingLeft" />
+        <attr name="xt_paddingTop" />
+        <attr name="xt_paddingRight" />
+        <attr name="xt_paddingBottom" />
+        <attr name="xt_layout_margin" />
+        <attr name="xt_layout_marginLeft" />
+        <attr name="xt_layout_marginTop" />
+        <attr name="xt_layout_marginRight" />
+        <attr name="xt_layout_marginBottom" />
+    </declare-styleable>
+    <declare-styleable name="XtScrollView">
+        <attr name="xt_layout_width" />
+        <attr name="xt_layout_height" />
+        <attr name="xt_padding" />
+        <attr name="xt_paddingLeft" />
+        <attr name="xt_paddingTop" />
+        <attr name="xt_paddingRight" />
+        <attr name="xt_paddingBottom" />
+        <attr name="xt_layout_margin" />
+        <attr name="xt_layout_marginLeft" />
+        <attr name="xt_layout_marginTop" />
+        <attr name="xt_layout_marginRight" />
+        <attr name="xt_layout_marginBottom" />
+    </declare-styleable>
+    <declare-styleable name="XtSeekBar">
+        <attr name="xt_layout_width" />
+        <attr name="xt_layout_height" />
+        <attr name="xt_padding" />
+        <attr name="xt_paddingLeft" />
+        <attr name="xt_paddingTop" />
+        <attr name="xt_paddingRight" />
+        <attr name="xt_paddingBottom" />
+        <attr name="xt_layout_margin" />
+        <attr name="xt_layout_marginLeft" />
+        <attr name="xt_layout_marginTop" />
+        <attr name="xt_layout_marginRight" />
+        <attr name="xt_layout_marginBottom" />
+    </declare-styleable>
+    <declare-styleable name="XtTextView">
+        <attr name="xt_layout_width" />
+        <attr name="xt_layout_height" />
+        <attr name="xt_padding" />
+        <attr name="xt_paddingLeft" />
+        <attr name="xt_paddingTop" />
+        <attr name="xt_paddingRight" />
+        <attr name="xt_paddingBottom" />
+        <attr name="xt_layout_margin" />
+        <attr name="xt_layout_marginLeft" />
+
+        <attr name="xt_layout_marginTop" />
+        <attr name="xt_layout_marginRight" />
+        <attr name="xt_layout_marginBottom" />
+        <attr name="xt_textSize" />
+        <attr name="xt_drawableWidth" />
+        <attr name="xt_drawableHeight" />
+        <attr name="xt_drawablePadding" />
+        <attr name="xt_layout_max_width" />
+        <attr name="xt_layout_max_height" />
+    </declare-styleable>
+    <declare-styleable name="XtView">
+        <attr name="xt_layout_width" format="integer" />
+        <attr name="xt_layout_height" format="integer" />
+        <attr name="xt_layout_max_width" format="integer" />
+        <attr name="xt_layout_max_height" format="integer" />
+        <attr name="xt_padding" format="integer" />
+        <attr name="xt_paddingLeft" format="integer" />
+        <attr name="xt_paddingTop" format="integer" />
+        <attr name="xt_paddingRight" format="integer" />
+        <attr name="xt_paddingBottom" format="integer" />
+        <attr name="xt_layout_margin" format="integer" />
+        <attr name="xt_layout_marginLeft" format="integer" />
+        <attr name="xt_layout_marginTop" format="integer" />
+        <attr name="xt_layout_marginRight" format="integer" />
+        <attr name="xt_layout_marginBottom" format="integer" />
+        <attr name="xt_textSize" format="integer" />
+        <attr name="xt_drawableWidth" format="integer" />
+        <attr name="xt_drawableHeight" format="integer" />
+        <attr name="xt_drawablePadding" format="integer" />
+        <attr name="android:drawableLeft" />
+        <attr name="android:drawableTop" />
+        <attr name="android:drawableRight" />
+        <attr name="android:drawableBottom" />
+    </declare-styleable>
+    <declare-styleable name="XtViewGroup">
+        <attr name="xt_layout_width" />
+        <attr name="xt_layout_height" />
+        <attr name="xt_padding" />
+        <attr name="xt_paddingLeft" />
+        <attr name="xt_paddingTop" />
+        <attr name="xt_paddingRight" />
+        <attr name="xt_paddingBottom" />
+        <attr name="xt_layout_margin" />
+        <attr name="xt_layout_marginLeft" />
+        <attr name="xt_layout_marginTop" />
+        <attr name="xt_layout_marginRight" />
+        <attr name="xt_layout_marginBottom" />
+    </declare-styleable>
+    <declare-styleable name="XtViewPager">
+        <attr name="xt_layout_width" />
+        <attr name="xt_layout_height" />
+        <attr name="xt_padding" />
+        <attr name="xt_paddingLeft" />
+        <attr name="xt_paddingTop" />
+
+        <attr name="xt_paddingRight" />
+        <attr name="xt_paddingBottom" />
+        <attr name="xt_layout_margin" />
+        <attr name="xt_layout_marginLeft" />
+        <attr name="xt_layout_marginTop" />
+        <attr name="xt_layout_marginRight" />
+        <attr name="xt_layout_marginBottom" />
+    </declare-styleable>
+</resources>
+

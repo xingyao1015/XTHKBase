@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--记录开发设备的pushID-->
+    <string-array name="pushId">
+        <item>120c83f7607b8931613</item>
+        <item>13065ffa4e81f632470</item>
+        <item>190e35f7e0cdf66aec0</item>
+        <item>13065ffa4e2e103a93a</item>
+    </string-array>
+</resources>

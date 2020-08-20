@@ -1,0 +1,134 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.github.dcendents.android-maven'
+
+kapt {
+    arguments {
+        arg("AROUTER_MODULE_NAME", project.getName())
+    }
+}
+
+androidExtensions {
+    experimental = true
+}
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets.main {
+        jni.srcDirs = ['libs']
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+    //骨架屏
+    api project(path: ':lib_skeleton')
+
+    //适配控件
+    api project(path: ':lib_xtsize')
+
+    //热修复
+    api project(path: ':lib_hotfix')
+
+    api fileTree(dir: "libs", include: ["*.jar"])
+    api "org.jetbrains.kotlin:kotlin-stdlib:$rootProject.kotlin_version"
+    api "org.jetbrains.kotlin:kotlin-reflect:$rootProject.kotlin_version"
+
+    //协程coroutines
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9"
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9"
+
+    api "androidx.core:core-ktx:$rootProject.ktxVersion"
+    api "androidx.appcompat:appcompat:$rootProject.appCompatVersion"
+    api "androidx.cardview:cardview:1.0.0"
+    api "androidx.viewpager2:viewpager2:1.0.0"
+    api "androidx.constraintlayout:constraintlayout:$rootProject.constraintLayoutVersion"
+    api "androidx.vectordrawable:vectordrawable:1.1.0"
+    api "androidx.recyclerview:recyclerview:$rootProject.recyclerViewVersion"
+    api "com.android.support:multidex:1.0.3"
+    api "com.google.android.material:material:1.2.0"
+
+    //lifecycle
+    api "androidx.lifecycle:lifecycle-extensions:2.2.0"
+    api "androidx.lifecycle:lifecycle-common:2.2.0"
+
+    kapt "androidx.lifecycle:lifecycle-compiler:2.2.0"
+    api "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0"
+    api "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
+
+    //room
+    api "androidx.room:room-runtime:2.2.5"
+
+    //paging
+    api "androidx.paging:paging-runtime-ktx:2.1.2"
+
+    //okhttp
+    api 'com.squareup.okhttp3:okhttp:3.14.2'
+    api 'com.squareup.okhttp3:logging-interceptor:3.14.2'
+
+    //retrofit
+    api 'com.squareup.retrofit2:retrofit:2.6.0'
+
+    //ping++
+    api "com.pingxx:pingpp-android:2.2.2"
+    api "com.pingxx:pingpp-android-alipay:2.2.0"
+    api "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+"
+
+    //arouter
+    api "com.alibaba:arouter-api:1.4.1"
+    kapt "com.alibaba:arouter-compiler:1.2.2"
+
+    api "io.arrow-kt:arrow-core:0.10.5"
+
+    //事件总线
+    api 'com.jeremyliao:live-event-bus-x:1.6.1'
+
+    //glide
+    api 'com.github.bumptech.glide:glide:4.10.0'
+    kapt 'com.github.bumptech.glide:compiler:4.10.0'
+    api 'com.github.bumptech.glide:okhttp3-integration:4.10.0'
+    api 'jp.wasabeef:glide-transformations:4.0.0'
+
+    // 权限
+    api "org.permissionsdispatcher:permissionsdispatcher:4.7.0"
+    kapt "org.permissionsdispatcher:permissionsdispatcher-processor:4.7.0"
+
+    testApi 'junit:junit:4.12'
+    androidTestApi 'androidx.test.ext:junit:1.1.1'
+    androidTestApi 'androidx.test.espresso:espresso-core:3.2.0'
+
+}
+
+group='com.xthk.base'
