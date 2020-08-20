@@ -2,7 +2,6 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
-apply plugin: 'com.github.dcendents.android-maven'
 
 kapt {
     arguments {
@@ -131,9 +130,5 @@ dependencies {
 
 }
 
-repositories {
-    mavenCentral()
-}
-
-group='com.xthk.base'
+apply from: 'bintray.gradle'
 
