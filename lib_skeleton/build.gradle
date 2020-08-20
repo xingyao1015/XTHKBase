@@ -9,7 +9,7 @@ android {
         minSdkVersion rootProject.minSdkVersion
         targetSdkVersion rootProject.compileSdkVersion
         versionCode 1
-        versionName "1.0.3"
+        versionName rootProject.DEFAULT_VERSION_NAME
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -31,3 +31,5 @@ dependencies {
 
 
 }
+
+group='com.github.xthkbase'
