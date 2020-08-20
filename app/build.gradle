@@ -27,5 +27,4 @@ android {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     api project(path: ':lib_base')
-
 }
